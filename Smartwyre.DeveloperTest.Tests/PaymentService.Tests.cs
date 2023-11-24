@@ -537,7 +537,7 @@ public class PaymentServiceTests
         Assert.False(result.Success);
 
     }
-    //Test with invalit request.
+    //Test with invalid request.
     [Fact]
     public void CalculateRebate_InvalidRequest_ReturnsFailure()
     {
